@@ -1,0 +1,116 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8eae6;
+    padding: 10px 30px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .user-icon i {
+    font-size: 24px;
+  }
+  
+  /* Feedback Form */
+  .feedback-container {
+    background-color: #e6f7ff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: #f8eae6;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 50%;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    width: 60%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  .submit-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #cc0000;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Make sure modal is on top */
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Primary button color */
+    color: white;
+    cursor: pointer;
+  }
+  

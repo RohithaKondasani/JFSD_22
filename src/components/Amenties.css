@@ -1,0 +1,94 @@
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f8eae6;
+    padding: 10px 30px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .user-icon i {
+    font-size: 24px;
+  }
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8eae6;
+  padding: 10px 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.user-icon i {
+  font-size: 24px;
+}
+
+/* Main Content */
+.content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-image img {
+  width: 600px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.right-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.right-details h3 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.amenities-list {
+  list-style: none;
+  font-size: 20px;
+}
+
+.amenities-list li {
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Adjust the overall page layout */
+.amenities-container {
+  background-color: #e6f7ff;
+  height: 100vh;
+}
+  

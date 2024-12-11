@@ -1,0 +1,66 @@
+/* src/components/Team.css */
+.team-container {
+  padding: 50px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.team-header {
+  margin-bottom: 30px;
+  color: #555;
+}
+
+.team-header h3 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  color: #999;
+}
+
+.team-header h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+
+.agents {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.agent-card {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.agent-card:hover {
+  transform: translateY(-10px);
+}
+
+.agent-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.agent-card h2 {
+  font-size: 22px;
+  margin: 15px 0;
+  color: #333;
+}
+
+.contact-info {
+  color: #666;
+  font-size: 16px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
